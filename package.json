@@ -1,0 +1,15 @@
+{
+  "name": "image-upload-portfolio",
+  "version": "1.0.0",
+  "description": "Aplicación para subir y mostrar imágenes",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "sharp": "^0.33.4",
+    "sqlite3": "^5.0.0"
+  }
+}
